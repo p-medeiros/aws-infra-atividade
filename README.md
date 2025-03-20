@@ -93,3 +93,11 @@ Conecte ao banco RDS usando o seguinte comando:
 psql -h ENDPOINT_DO_BANCO -U admin -d postgres
 Digite a senha configurada e, se tudo estiver correto, você terá acesso ao banco!
 
+chave : key.pem
+ip ec2 : ec2-3-149-252-144.us-east-2.compute.amazonaws.com
+
+No diretodio da chave 
+ssh -i key.pem ec2-user@ec2-3-149-252-144.us-east-2.compute.amazonaws.com
+
+psql -h database-postgress.cja4824uwwh8.us-east-2.rds.amazonaws.com -U postgres -d postgres
+senha : **********
